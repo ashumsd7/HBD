@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy BDay Aayushi</title>
+    <title>🎂Happy Birthday Aayushi🎂</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -34,7 +34,10 @@
 
                 <h2 style="color: black; font-family: 'Pacifico', cursive;">Always Be Happy </h2>
                 <h2 style="color: black;">Keep Smiling </h2>
-                <h2 style="color: rgb(245, 62, 62);">By: A </h2>
+                <br>
+                <br>
+                <hr>
+                <small onclick="play4()" class="text-muted" style="color: rgb(245, 62, 62);">By: A </small>
                 <br>
             </main>
         </div>
@@ -53,6 +56,14 @@
         <source src="audio/mine2.mp3" type="audio/ogg">
         Your browser does not support the audio element.
     </audio>
+    <audio id='audio3' style="width: 100px;" hidden controls >
+        <source src="audio/mine6.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id='audio4' style="width: 100px;" hidden controls >
+        <source src="audio/mine3.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
 
 
 
@@ -61,6 +72,7 @@
 
 
 <script>
+    window.onload = play3;
      function play() {
         var audio = document.getElementById("audio");
         audio.play();
@@ -69,6 +81,16 @@
         var audio = document.getElementById("audio2");
         audio.play();
       }
+
+      function play3() {
+        var audio = document.getElementById("audio3");
+        audio.play();
+        }
+        function play4() {
+        var audio = document.getElementById("audio4");
+        audio.play();
+        }
+        
 </script>
 
 </body>
