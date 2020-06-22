@@ -45,7 +45,9 @@ main .signature{
     color: rgb(245, 40, 40);
     font-family: 'Pacifico', cursive;
     font-size: 40px;
+    font-weight: 900;
     transform: skewY(-8deg);
+    text-shadow: 2px 10px rgba(146, 140, 140, 0.5);
 }
 
 main .name{
