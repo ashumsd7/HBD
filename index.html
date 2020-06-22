@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Always Be Happy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <main>
+                <div class="signature">
+                Wish You,
+                </div>
+                <div class="img-container">
+                </div>
+                <div class="name row">
+                    Happy Birthday
+                </div>
+                <div class="name-2 row">
+                    Romi
+                </div>
+                <div  onclick="play()" class="img-container2">
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+    <!-- <div class="hr-line"></div> -->
+
+    
+
+
+    <audio id='audio' style="width: 100px;" controls >
+        <source src="audio/mine.mp3" type="audio/ogg">
+
+        Your browser does not support the audio element.
+    </audio>
+
+
+
+
+    </div>
+
+
+<script>
+     function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+</script>
+
+</body>
+
+</html>
